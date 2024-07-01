@@ -1,0 +1,79 @@
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.navbar,
+.hero,
+.card {
+    background-color: #333333;
+}
+
+.card {
+    color: #ffffff;
+}
+
+.dropdown-content a {
+    display: flex;
+    align-items: center;
+}
+
+.dropdown-content a span {
+    margin-left: 10px;
+}
+
+.dropdown-content a.system span {
+    color: green;
+}
+
+.dropdown-content a.light span {
+    color: gold;
+}
+
+.dropdown-content a.dark span {
+    color: purple;
+}
+
+/* Additional styles from your inline <style> section */
+/* You can copy any additional styles you have from the <style> tag in your HTML */
+
+.hero.is-info {
+    background-color: #209cee;
+    color: white;
+}
+
+.hero.is-bold {
+    font-weight: bold;
+}
+
+.title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.subtitle {
+    font-size: 1.5rem;
+}
+
+.article-title {
+    font-size: 1.75rem;
+    margin-bottom: 0.5rem;
+}
+
+.article-subtitle {
+    font-size: 1rem;
+    color: #888888;
+    margin-top: 0.25rem;
+    margin-bottom: 1rem;
+}
+
+.article-body {
+    line-height: 1.6;
+    font-size: 1.1rem;
+}
+
+.author-image {
+    max-width: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
